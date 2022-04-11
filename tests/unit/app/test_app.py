@@ -22,18 +22,6 @@ def test_app_creation():
     assert isinstance(_app, Flask)
 
 
-def test_app_creation_explict():
-    _app = create_app(api, testing=False)
-
-    assert isinstance(_app, Flask)
-
-
-def test_testing_app_creation():
-    _app = create_app(api, testing=True)
-
-    assert isinstance(_app, Flask)
-
-
 def test_namespace_register():
     register_namespaces()
 
