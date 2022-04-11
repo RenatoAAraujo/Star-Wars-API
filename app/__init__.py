@@ -78,7 +78,7 @@ def register_namespaces():
     # star wars
     from app.star_wars.views import star_wars_api
 
-    api.add_namespace(star_wars_api, path="/")
+    api.add_namespace(star_wars_api, path="")
 
 
 def register_models():
