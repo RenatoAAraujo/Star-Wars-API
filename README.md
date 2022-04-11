@@ -26,7 +26,7 @@ sudo usermod -aG docker $USER
 ```shell
 cd ~/path/to/project/
 git clone https://github.com/RenatoAAraujo/Star-Wars-API.git
-cd barber-api
+cd Star-Wars-API
 ```
 
 ### Deploy
