@@ -25,7 +25,7 @@ sudo usermod -aG docker $USER
 ### Git clone
 ```shell
 cd ~/path/to/project/
-git clone https://github.com/WR-Labs/barber-api.git
+git clone https://github.com/RenatoAAraujo/Star-Wars-API.git
 cd barber-api
 ```
 
